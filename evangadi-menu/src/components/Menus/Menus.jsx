@@ -8,16 +8,21 @@ export default class Menus extends Component {
     return (
       <div className={style["foods-container"]}>
         {data.map((item) => {
-          const { id, title, price, img, desc } = item;
+          const { title, price, img, desc } = item;
 
           return (
-            <MenuList
-              key={id}
+            <>
+            <div className="foods-container">
+              <MenuList 
               title={title}
-              img={img}
               price={price}
+              img={img}
               desc={desc}
-            />
+              />
+            </div>
+            
+            </>
+         
           );
         })}
       </div>

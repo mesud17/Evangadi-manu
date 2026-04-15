@@ -7,8 +7,6 @@ export default class MenuList extends Component {
 
     return (
       <>
-      <div className="all-container">
-
            <div className={style["single-food"]}>
           <div className={style.img}>
             <img src={img} alt={title} />
@@ -23,8 +21,6 @@ export default class MenuList extends Component {
             {desc}
           </div>
         </div>
-      </div>
-     
       </>
     )
   }

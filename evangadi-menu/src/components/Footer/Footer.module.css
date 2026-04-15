@@ -1,0 +1,31 @@
+.footer {
+  background: #1c1f24;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+
+  background: #2a2f36;
+  color: #bbb;
+  border-radius: 50%;
+
+  font-size: 18px;
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+/* ✨ Modern hover effect */
+.socials a:hover {
+  background: #fff;
+  color: #111;
+  transform: translateY(-3px)  ;
+}

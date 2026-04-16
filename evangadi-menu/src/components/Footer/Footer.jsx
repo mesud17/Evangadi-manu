@@ -6,6 +6,7 @@ export default class Footer extends Component {
     return (
       <>
       <footer className={style.footer}>
+         <div className={style["footer-copy"]}>© 2026 Evangadi. All rights reserved.</div>
   <div className={style.socials}>
   <a href="#">
     <i className={`fab fa-facebook-f ${style.icon}`}></i>

@@ -1,6 +1,6 @@
 import style from './Header.module.css'
 
-import React, { Component } from 'react'
+import { Component } from 'react'
 
 export default class Header extends Component {
   render() {

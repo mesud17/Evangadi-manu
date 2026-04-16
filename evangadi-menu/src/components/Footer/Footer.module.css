@@ -3,6 +3,11 @@
   padding: 25px 0;
   text-align: center;
 }
+.footer-copy {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 20px;
+}
 
 .socials a {
   display: inline-flex;
